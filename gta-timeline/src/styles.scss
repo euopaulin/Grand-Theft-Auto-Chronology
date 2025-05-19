@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Pricedown';
+  src: url('/assets/fonts/Pricedown.ttf') format('truetype'); // com a barra no início
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background: linear-gradient(135deg, #ffe6f0, #ccf2ff); // exemplo estilo Vice City
+  margin: 0;
+  padding: 0;
+}

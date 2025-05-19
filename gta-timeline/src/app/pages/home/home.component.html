@@ -1,1 +1,15 @@
-<p>home works!</p>
+<div class="header">
+  <h1>Linha do tempo de <span>GTA!
+    <img src="assets/images/star.png" alt="GTA Logo" title="GTA Logo" class="rockstar-icon" style="width: 55px"/>
+  </span></h1>
+  <nav class="timeline-menu">
+    <a *ngFor="let game of games" [href]="'#' + game.id">{{ game.title }}</a>
+  </nav>
+</div>
+
+<section class="game-list">
+  <div *ngFor="let game of games" class="game-card" [id]="game.id">
+    <h2>{{ game.title }}</h2>
+    <p>{{ game.description }}</p>
+  </div>
+</section>

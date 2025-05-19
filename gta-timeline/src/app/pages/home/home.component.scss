@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'Pricedown';
+  src: url('/assets/fonts/Pricedown.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.gta-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+
+
+img.rockstar-icon {
+  width: 24px !important;
+  height: auto;
+  margin-left: 0.3rem;
+  position: relative;  
+  top: 2px;                 
+  filter: drop-shadow(0 0 2px #ff33cc);
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: scale(1.2) rotate(5deg);
+  }
+}
+
+}
+
+body {
+  background: hsl(182, 74%, 79%);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.header {
+  background: linear-gradient(to right, #ff99cc, #b44be9);
+  padding: 3rem;
+  border-radius: 10px;
+  margin: 4rem;
+  box-shadow: 0 0 10px rgba(255, 102, 204, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  h1 {
+    font-family: 'Pricedown', sans-serif;
+    font-size: 3.5rem;
+    color: #ff33cc;
+    text-shadow: 2px 2px #00ffff;
+
+    span {
+      color: #ff33ff;
+      text-shadow: 2px 2px #000;
+    }
+  }
+
+  .timeline-menu {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    text-shadow: #333;
+
+    a {
+      color: #ffffff;
+      background: linear-gradient(to right, #65f8f8, #ff99cc);
+      padding: 1rem 2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s ease-in-out;
+      text-shadow: 1.3px 1.3px #000000;
+      font-family: 'Pricedown', sans-serif;
+      font-size: 1.4rem;
+
+      &:hover {
+        background-color: #ff33ff;
+        color: white;
+        transform: scale(1.1);
+        box-shadow: 0 0 10px #ff33ff;
+      }
+    }
+  }
+}
+
+.game-list {
+  padding: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  .game-card {
+    background: linear-gradient(135deg, #ffccff, #ccffff);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 102, 204, 0.4);
+    transition: transform 0.3s ease;
+
+    h2 {
+      color: #cc00ff;
+      font-family: 'Pricedown', sans-serif;
+    }
+
+    p {
+      color: #333;
+    }
+
+    &:hover {
+      transform: scale(1.02);
+    }
+  }
+}
