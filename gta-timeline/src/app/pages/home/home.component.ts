@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {games} from 'src/assets/Data/games';
+import { games } from 'src/assets/Data/games';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +7,5 @@ import {games} from 'src/assets/Data/games';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-  games = games;
-
+  games = games; // 👈 ESSA LINHA é essencial
 }
