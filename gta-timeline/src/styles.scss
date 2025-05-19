@@ -1,12 +1,35 @@
 @font-face {
   font-family: 'Pricedown';
-  src: url('/assets/fonts/Pricedown.ttf') format('truetype'); // com a barra no início
+  src: url('/assets/Fonts/Pricedown.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
-
 body {
   background: linear-gradient(135deg, #ffe6f0, #ccf2ff); // exemplo estilo Vice City
   margin: 0;
   padding: 0;
+}
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+
+  background: linear-gradient(-45deg, #ff33cc, #33ccff);
+  background-size: 400% 400%;
+  background-position: 0% 50%;
+  animation: gradientFlow 5s ease infinite;
 }

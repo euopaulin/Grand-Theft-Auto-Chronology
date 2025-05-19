@@ -1,7 +1,12 @@
 <div class="header">
-  <h1>Linha do tempo de <span>GTA!
-    <img src="assets/images/star.png" alt="GTA Logo" title="GTA Logo" class="rockstar-icon" style="width: 55px"/>
-  </span></h1>
+  <h1 class="gta-title">
+    <span class="linha-texto">Linha do tempo de</span>
+    <div class="linha-logo">
+      <span class="gta-highlight">Grand Theft Auto!</span>
+      <img src="assets/images/star.png" alt="GTA Logo" title="GTA Logo" class="rockstar-icon" />
+    </div>
+  </h1>
+
   <nav class="timeline-menu">
     <a *ngFor="let game of games" [href]="'#' + game.id">{{ game.title }}</a>
   </nav>
@@ -9,7 +14,15 @@
 
 <section class="game-list">
   <div *ngFor="let game of games" class="game-card" [id]="game.id">
-    <h2>{{ game.title }}</h2>
-    <p>{{ game.description }}</p>
+    <div class="image-side">
+      <img [src]="game.image" alt="{{ game.title }} Capa" />
+    </div>
+    <div class="info-side">
+      <h2>{{ game.title }}</h2>
+      <p>{{ game.description }}</p>
+        <p><strong>Lançamento:</strong> {{ game.releaseDate }}</p>
+        <p><strong>Plataformas:</strong> {{ game.platforms.join(', ') }}</p>
+    </div>
   </div>
 </section>
+
