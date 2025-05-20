@@ -1,9 +1,17 @@
 @font-face {
   font-family: 'Pricedown';
-  src: url('/assets/Fonts/Pricedown.ttf') format('truetype');
+  src: url('/assets/fonts/pricedown.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'baberChop';
+  src: url('/assets/fonts/baberchop.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background: linear-gradient(135deg, #ffe6f0, #ccf2ff); // exemplo estilo Vice City
   margin: 0;
@@ -33,3 +41,4 @@ body {
   background-position: 0% 50%;
   animation: gradientFlow 5s ease infinite;
 }
+

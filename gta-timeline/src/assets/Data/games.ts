@@ -54,5 +54,13 @@ export const games = [
         releaseDate: '17 de Setembro de 2013',
         platforms: ['PC', 'PlayStation 3', 'PlayStation 4', 'Xbox 360', 'Xbox One'],
         description: 'GTA V é um dos jogos mais vendidos de todos os tempos, com um mundo aberto expansivo e uma narrativa envolvente que segue três protagonistas jogáveis. O jogo se passa em Los Santos, uma recriação fictícia de Los Angeles, e apresenta uma variedade de atividades, missões e modos multiplayer.',
+    },
+    {
+        id:"GTA VI",
+        title: 'GTA VI',
+        image: 'assets/images/gta6.png',
+        releaseDate: '26 de Maio de 2026',
+        platforms: ['PC', 'PlayStation 5', 'Xbox Series X/S'],
+        description: 'GTA 6 chega como a próxima evolução da série Grand Theft Auto, com um mundo aberto vibrante e imersivo inspirado em Miami. Prepare-se para uma narrativa intensa, personagens marcantes e missões desafiadoras. Com gráficos de última geração e jogabilidade refinada, GTA 6 redefine o padrão dos jogos de mundo aberto e promete uma experiência inesquecível para os fãs da franquia.',
     }
 ]
