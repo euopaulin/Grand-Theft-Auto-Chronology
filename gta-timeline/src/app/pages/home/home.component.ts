@@ -7,5 +7,5 @@ import { games } from 'src/assets/Data/games';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-  games = games; // 👈 ESSA LINHA é essencial
+  games = games; 
 }
