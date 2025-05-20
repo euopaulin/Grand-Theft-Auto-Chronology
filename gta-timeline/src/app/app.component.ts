@@ -6,6 +6,8 @@ import { Component, AfterViewInit, Renderer2 } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements AfterViewInit {
+  title = 'gta-timeline';  // <-- adiciona aqui a propriedade
+
   constructor(private renderer: Renderer2) {}
 
   ngAfterViewInit(): void {
@@ -17,3 +19,4 @@ export class AppComponent implements AfterViewInit {
     });
   }
 }
+

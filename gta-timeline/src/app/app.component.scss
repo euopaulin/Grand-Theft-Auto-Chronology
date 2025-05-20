@@ -122,29 +122,30 @@ body {
 // ---------- TIMELINE MENU ----------
 .timeline-menu {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: nowrap;          // manter tudo numa linha só
   justify-content: center;
-  gap: 1rem;
-  overflow-x: auto;
-  white-space: nowrap;
+  gap: 0.5rem;                // diminuir espaço entre botões
+  max-width: 100%;            // ocupar largura máxima possível
+  overflow-x: auto;           // permite scroll horizontal se necessário
+  padding: 0 1rem;
 }
 
 .timeline-menu a {
-  flex-shrink: 0;
-  min-width: 80px;
-  max-width: 150px;
+  flex-shrink: 0;             // não deixa os botões encolherem demais
+  min-width: 60px;            // largura mínima menor para caber mais
+  max-width: 100px;           // largura máxima reduzida para evitar estouro
   text-align: center;
   white-space: nowrap;
   color: #ffffff;
   background: linear-gradient(to right, #65f8f8, #ff99cc);
-  padding: 0.6rem 1rem;
+  padding: 0.5rem 0.8rem;     // diminuir padding para caber mais
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
   transition: 0.3s ease-in-out;
   text-shadow: 1.3px 1.3px #000000;
   font-family: $font-pricedown;
-  font-size: 1rem;
+  font-size: 0.9rem;          // fonte um pouco menor para ajustar
 }
 
 .timeline-menu a:hover {
@@ -158,6 +159,7 @@ body {
   outline: 2px dashed $color-primary;
   background-color: $color-primary;
 }
+
 
 
 // ---------- GAME LIST ----------
@@ -272,21 +274,21 @@ body {
 }
 
 // Cursor customizado
-body {
-  cursor: url('/assets/images/gun.png'), auto;
-}
+//body {
+  //cursor: url('/assets/images/gun.png'), auto;
+//}
 
-#cursor {
-  position: fixed;
-  width: 20px;
-  height: 20px;
-  background-color: transparent;
-  border: 0.3px solid /* cor aqui, ex: #ff33cc */;
-  border-radius: 50%;
-  pointer-events: none;
-  transform: translate(-50%, -50%);
-  transition: transform 0.1s ease;
-  will-change: transform, left, top;
-  z-index: 9999;
-}
-//
+//#cursor {
+  //position: fixed;
+ //width: 20px;
+  //height: 20px;
+  //background-color: transparent;
+  //border: 0.3px solid /* cor aqui, ex: #ff33cc */;
+ // border-radius: 50%;
+ // pointer-events: none;
+ // transform: translate(-50%, -50%);
+ // transition: transform 0.1s ease;
+ // will-change: transform, left, top;
+ //z-index: 9999;
+//}//
+
