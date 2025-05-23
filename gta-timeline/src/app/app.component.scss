@@ -7,18 +7,19 @@ $color-bg-gradient-mid1: #33ccff;
 $color-bg-gradient-mid2: #ffcc00;
 $color-bg-gradient-end: #00ffcc;
 $font-pricedown: 'Pricedown', Arial, sans-serif;
+$font-baberchop: 'BaberChop', Arial, sans-serif;
 
 // Fontes
 @font-face {
   font-family: 'Pricedown';
-  src: url('/assets/fonts/pricedown.ttf') format('truetype');
+  src: url('assets/fonts/princedown.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'BaberChop';
-  src: url('/assets/fonts/baberchop.ttf') format('truetype');
+  src: url('assets/fonts/babershop.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -215,6 +216,7 @@ body {
 .info-side {
   flex: 1;
   background-color: rgba(255, 255, 255, 0.9);
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   padding: 1.5rem 2rem;
   display: flex;
@@ -234,6 +236,7 @@ body {
     color: #333;
     font-family: $font-pricedown;
   }
+  
 }
 
 // ---------- RESPONSIVO ----------
