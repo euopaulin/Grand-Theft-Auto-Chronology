@@ -6,22 +6,16 @@ $color-bg-gradient-start: #ff33cc;
 $color-bg-gradient-mid1: #33ccff;
 $color-bg-gradient-mid2: #ffcc00;
 $color-bg-gradient-end: #00ffcc;
-$font-pricedown: 'Pricedown', Arial, sans-serif;
-$font-baberchop: 'BaberChop', Arial, sans-serif;
 
 // Fontes
 @font-face {
-  font-family: 'Pricedown';
-  src: url('assets/fonts/princedown.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'pricedown';
+  src: url("/assets/fonts/Nexora-yYJoq.ttf") format('truetype');
 }
 
 @font-face {
-  font-family: 'BaberChop';
-  src: url('assets/fonts/babershop.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'junegull';
+  src: url("/assets/fonts/junegull.ttf") format('truetype');
 }
 
 // Corpo e fundo
@@ -67,7 +61,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: $font-pricedown;
   font-size: 3.5rem;
   text-align: center;
   color: $color-primary;
@@ -145,7 +138,6 @@ body {
   font-weight: bold;
   transition: 0.3s ease-in-out;
   text-shadow: 1.3px 1.3px #000000;
-  font-family: $font-pricedown;
   font-size: 0.9rem;          // fonte um pouco menor para ajustar
 }
 
@@ -226,7 +218,6 @@ body {
   h2 {
     margin: 0;
     font-size: 2rem;
-    font-family: $font-pricedown;
     color: #cc00ff;
   }
 
@@ -234,7 +225,13 @@ body {
     margin: 0.5rem 0 0;
     font-size: 1.3rem;
     color: #333;
-    font-family: $font-pricedown;
+  }
+
+  .plataformas strong{
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 0.5rem;
+    font-family: "junegull", sans-serif;
   }
   
 }
