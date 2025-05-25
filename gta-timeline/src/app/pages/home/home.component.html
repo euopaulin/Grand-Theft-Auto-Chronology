@@ -7,25 +7,34 @@
     </div>
   </h1>
 
-  <nav class="timeline-menu">
-    <a *ngFor="let game of games" [href]="'#' + game.id">{{ game.title }}</a>
-  </nav>
-</div>
+<nav class="timeline-menu">
+  <a *ngFor="let game of games"
+     [routerLink]="['/', game.route]">
+    {{ game.title }}
+  </a>
+</nav>
+
 
 <section class="game-list">
-  <div *ngFor="let game of games" class="game-card" [id]="game.id">
+  <a
+    *ngFor="let game of games"
+    class="game-card"
+    [id]="game.id"
+    [routerLink]="['/', game.route]"
+  >
     <div class="image-side">
       <img [src]="game.image" alt="{{ game.title }} Capa" />
     </div>
     <div class="info-side">
       <h2>{{ game.title }}</h2>
       <p>{{ game.description }}</p>
-        <p><strong>Lançamento:</strong> {{ game.releaseDate }}</p>
-        <p><strong>Plataformas:</strong> {{ game.platforms.join(', ') }}</p>
+      <p><strong>Lançamento:</strong> {{ game.releaseDate }}</p>
+      <p><strong>Plataformas:</strong> {{ game.platforms.join(', ') }}</p>
     </div>
-  </div>
+  </a>
+
   <footer>
-  <p>&copy; 2025 Paulo Henrique Gomes. Todos os direitos reservados.</p>
-</footer>
+    <p>&copy; 2025 Paulo Henrique Gomes. Todos os direitos reservados.</p>
+  </footer>
 </section>
 
