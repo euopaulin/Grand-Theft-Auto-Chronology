@@ -1,9 +1,25 @@
+//fontes
 @font-face {
-  font-family: 'Pricedown';
-  src: url('/assets/fonts/Pricedown.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  font-family: "pricedown";
+  src: url("/assets/fonts/pricedown.ttf") format('truetype');
 }
+
+@font-face {
+  font-family: 'Nexora-yYJoq';
+  src: url("/assets/fonts/Nexora-yYJoq.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'junegull';
+  src: url("/assets/fonts/junegull.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'unsans';
+  src: url("/assets/fonts/hundo.ttf") format('truetype');
+}
+
+
 
 .header {
   background: linear-gradient(135deg, #fa379c60, #6dd3f262);
@@ -16,13 +32,13 @@
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+  font-family: 'pricedown', sans-serif
 }
 
 .gta-title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Pricedown', sans-serif;
   font-size: 3.5rem;
   text-align: center;
   color: #ff33cc;
@@ -84,8 +100,7 @@
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s ease-in-out;
-    text-shadow: 1.3px 1.3px #000000;
-    font-family: 'Pricedown', sans-serif;
+    text-shadow: 1px 1px #000000;
     font-size: 1.4rem;
 
     &:hover {
@@ -158,7 +173,7 @@
   h2 {
     margin: 0;
     font-size: 2rem;
-    font-family: 'BaberChop', sans-serif;
+    font-family: 'pricedown', sans-serif;
     color: #cc00ff;
   }
 
@@ -166,8 +181,19 @@
     margin: 0.5rem 0 0;
     font-size: 1.3rem;
     color: #333;
+    font-family: "Arial", sans-serif;
   }
 }
+
+footer {
+  text-align: center;
+  padding: 10px;
+  color: #eee;
+  font-size: 14px;
+  margin-top: 30px;
+  text-shadow: 0.7px 0.7px #000000;
+}
+
 
 // ---------- RESPONSIVO ----------
 @media (max-width: 768px) {

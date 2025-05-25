@@ -8,21 +8,11 @@ $color-bg-gradient-mid2: #ffcc00;
 $color-bg-gradient-end: #00ffcc;
 
 // Fontes
-@font-face {
-  font-family: 'pricedown';
-  src: url("/assets/fonts/Nexora-yYJoq.ttf") format('truetype');
-}
-
-@font-face {
-  font-family: 'junegull';
-  src: url("/assets/fonts/junegull.ttf") format('truetype');
-}
 
 // Corpo e fundo
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', sans-serif;
   scroll-behavior: smooth;
   min-height: 100vh;
   background: linear-gradient(-45deg, $color-bg-gradient-start, $color-bg-gradient-mid1, $color-bg-gradient-mid2, $color-bg-gradient-end);
@@ -137,7 +127,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   transition: 0.3s ease-in-out;
-  text-shadow: 1.3px 1.3px #000000;
+  text-shadow: 1px 1px #000000;
   font-size: 0.9rem;          // fonte um pouco menor para ajustar
 }
 
@@ -226,14 +216,6 @@ body {
     font-size: 1.3rem;
     color: #333;
   }
-
-  .plataformas strong{
-    font-size: 1.2rem;
-    color: #666;
-    margin-top: 0.5rem;
-    font-family: "junegull", sans-serif;
-  }
-  
 }
 
 // ---------- RESPONSIVO ----------

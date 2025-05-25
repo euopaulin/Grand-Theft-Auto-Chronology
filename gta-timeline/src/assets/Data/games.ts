@@ -55,5 +55,4 @@ export const games = [
         platforms: ['PC', 'PlayStation 3', 'PlayStation 4', 'Xbox 360', 'Xbox One'],
         description: 'GTA V é um dos jogos mais vendidos de todos os tempos, com um mundo aberto expansivo e uma narrativa envolvente que segue três protagonistas jogáveis. O jogo se passa em Los Santos, uma recriação fictícia de Los Angeles, e apresenta uma variedade de atividades, missões e modos multiplayer.',
     },
-   
 ]
