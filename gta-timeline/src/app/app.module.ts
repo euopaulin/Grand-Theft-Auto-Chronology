@@ -12,6 +12,7 @@ import { GtaIvComponent } from './pages/gta-iv/gta-iv.component';
 import { GtaVicecityComponent } from './pages/gta-vicecity/gta-vicecity.component';
 import { Gta1Component } from './pages/gta1/gta1.component';
 import { Gta2Component } from './pages/gta2/gta2.component';
+import { Gta6Component } from './pages/gta6/gta6.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { Gta2Component } from './pages/gta2/gta2.component';
     GtaIvComponent,
     GtaVicecityComponent,
     Gta1Component,
-    Gta2Component
+    Gta2Component,
+    Gta6Component
   ],
   imports: [
     BrowserModule,

@@ -9,6 +9,8 @@ import { GtaIvComponent } from './pages/gta-iv/gta-iv.component';
 import { GtaVicecityComponent } from './pages/gta-vicecity/gta-vicecity.component';
 import { Gta1Component } from './pages/gta1/gta1.component';
 import { Gta2Component } from './pages/gta2/gta2.component';
+import { Gta6Component } from './pages/gta6/gta6.component';
+
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -18,6 +20,9 @@ const routes: Routes = [
   { path: 'gta-v', component: GtaVComponent },
   { path: 'gta-iv', component: GtaIvComponent },
   { path: 'gta-vicecity', component: GtaVicecityComponent },
+  { path: 'gta-1', component: Gta1Component },
+  { path: 'gta-2', component: Gta2Component },
+  { path: 'gta6', component: Gta6Component }, // ← vírgula adicionada aqui
   { path: '**', redirectTo: '/home' }
 ];
 @NgModule({

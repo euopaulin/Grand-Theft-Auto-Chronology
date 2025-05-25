@@ -6,7 +6,7 @@ export const games = [
         releaseDate: '28 de Novembro de 1997',
         platforms: ['PC', 'PlayStation'],
         description: 'GTA I é um jogo de ação e aventura em mundo aberto, desenvolvido pela DMA Design e publicado pela BMG Interactive. O jogo se passa em uma cidade fictícia inspirada em cidades reais, onde o jogador assume o papel de um criminoso que deve completar missões para ganhar dinheiro e subir na hierarquia do crime.',
-        route: '/gta1'
+        route: '/gta-1'
     },
     {
         id:"gta2",
@@ -15,7 +15,7 @@ export const games = [
         releaseDate: '31 de Outubro de 1999',
         platforms: ['PC', 'PlayStation', 'Dreamcast'],
         description: 'GTA II é a sequência do jogo original, com uma jogabilidade semelhante, mas com gráficos melhorados e uma nova perspectiva isométrica. O jogo se passa em uma cidade futurista e apresenta várias gangues que o jogador pode escolher se aliar ou enfrentar.',
-        route: '/gta2'
+        route: '/gta-2'
     },
     {
         id:"gta3",
@@ -62,4 +62,14 @@ export const games = [
         description: 'GTA V é um dos jogos mais vendidos de todos os tempos, com um mundo aberto expansivo e uma narrativa envolvente que segue três protagonistas jogáveis. O jogo se passa em Los Santos, uma recriação fictícia de Los Angeles, e apresenta uma variedade de atividades, missões e modos multiplayer.',
         route: '/gta-v'
     },
+
+    {
+        id:"gta6",
+        title: 'GTA 6',
+        image: 'assets/images/gta6.png',
+        releaseDate: '1 de Outubro de 2013',
+        platforms: ['PC', 'PlayStation 3', 'PlayStation 4', 'Xbox 360', 'Xbox One'],
+        description: 'GTA Online é o modo multiplayer de GTA V, permitindo que os jogadores explorem o mundo aberto juntos, participem de missões, competições e atividades diversas. O jogo recebe atualizações regulares com novos conteúdos e eventos.',
+        route: '/gta6'
+    }
 ]

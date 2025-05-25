@@ -1,7 +1,7 @@
 //fontes
 @font-face {
-  font-family: "pricedown";
-  src: url("/assets/fonts/pricedown.ttf") format('truetype');
+  font-family: "princedown";
+  src: url("/assets/fonts/princedown.otf") format('truetype');
 }
 
 @font-face {
@@ -19,8 +19,6 @@
   src: url("/assets/fonts/hundo.ttf") format('truetype');
 }
 
-
-
 .header {
   background: linear-gradient(135deg, #fa379c60, #6dd3f262);
   padding: 3rem;
@@ -32,7 +30,7 @@
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  font-family: 'pricedown', sans-serif
+  font-family: 'princedown', sans-serif
 }
 
 .gta-title {
@@ -146,13 +144,14 @@
 }
 
 .image-side {
-  flex: 0 0 200px;
+  flex: 0 0 385px;
   background-color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
   aspect-ratio: 1 / 1;
   overflow: hidden;
+  height: auto;
 
   img {
     width: 100%;
@@ -175,7 +174,7 @@
   h2 {
     margin: 0;
     font-size: 2rem;
-    font-family: 'pricedown', sans-serif;
+    font-family: 'princedown', sans-serif;
     color: #cc00ff;
   }
 
@@ -187,6 +186,28 @@
   }
 }
 
+.btn-detalhes {
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #ff33cc;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none; // Remove underline
+  text-align: center;
+  font-family: "junegull", sans-serif;
+
+  &:hover {
+    background-color: #ff66ff;
+    box-shadow: 0 0 10px rgba(255, 51, 204, 0.3);
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
+  }
+}
+
 footer {
   text-align: center;
   padding: 10px;
@@ -194,6 +215,7 @@ footer {
   font-size: 14px;
   margin-top: 30px;
   text-shadow: 0.7px 0.7px #000000;
+  font-family: "Arial", sans-serif;
 }
 
 
@@ -232,4 +254,8 @@ footer {
       width: 80%;
     }
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }

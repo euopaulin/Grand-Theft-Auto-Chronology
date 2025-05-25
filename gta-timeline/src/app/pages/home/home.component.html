@@ -7,34 +7,131 @@
     </div>
   </h1>
 
-<nav class="timeline-menu">
-  <a *ngFor="let game of games"
-     [routerLink]="['/', game.route]">
-    {{ game.title }}
-  </a>
-</nav>
-
+  <nav class="timeline-menu">
+    <a routerLink="/home" fragment="gta1">GTA I</a>
+    <a routerLink="/home" fragment="gta2">GTA II</a>
+    <a routerLink="/home" fragment="gta3">GTA III</a>
+    <a routerLink="/home" fragment="gtavc">Vice City</a>
+    <a routerLink="/home" fragment="gtasa">San Andreas</a>
+    <a routerLink="/home" fragment="gta4">GTA IV</a>
+    <a routerLink="/home" fragment="gta5">GTA V</a>
+    <a routerLink="/home" fragment="gta6">GTA VI</a>
+  </nav>
 
 <section class="game-list">
-  <a
-    *ngFor="let game of games"
-    class="game-card"
-    [id]="game.id"
-    [routerLink]="['/', game.route]"
-  >
+  <!-- GTA I -->
+  <div class="game-card" id="gta1">
     <div class="image-side">
-      <img [src]="game.image" alt="{{ game.title }} Capa" />
+      <img src="assets/images/br-11134201-7r98o-m6boxnltt0369d.jpg" alt="GTA I Capa" />
     </div>
     <div class="info-side">
-      <h2>{{ game.title }}</h2>
-      <p>{{ game.description }}</p>
-      <p><strong>Lançamento:</strong> {{ game.releaseDate }}</p>
-      <p><strong>Plataformas:</strong> {{ game.platforms.join(', ') }}</p>
+      <h2>GTA I</h2>
+      <p>O jogo que deu origem à franquia. Com visão aérea (top-down), gráficos em 2D e ambientação urbana fictícia, GTA I permitia ao jogador assumir o papel de um criminoso em três cidades inspiradas em Nova York (Liberty City), San Francisco (San Andreas) e Miami (Vice City). O objetivo era ganhar respeito e dinheiro cometendo crimes, escapando da polícia e cumprindo missões para diversas organizações criminosas. Apesar de simples visualmente, o jogo chocou a crítica com sua temática adulta e liberdade de ação. Foi o primeiro passo para a criação do império Rockstar.</p>
+      <p><strong>Lançamento:</strong> 28 de Novembro de 1997</p>
+      <p><strong>Plataformas:</strong> PC, PlayStation</p>
+      <a routerLink="/gta-1" class="btn-detalhes">Ver Detalhes</a>
     </div>
-  </a>
+  </div>
+
+  <!-- GTA II -->
+  <div class="game-card" id="gta2">
+    <div class="image-side">
+      <img src="assets/images/gta2.jpg" alt="GTA II Capa" />
+    </div>
+    <div class="info-side">
+      <h2>GTA II</h2>
+      <p>GTA II manteve o estilo 2D e top-down, mas com gráficos mais polidos e a adição de uma ambientação futurista, em uma cidade sem nome dividida em três distritos. O jogador agora interagia com diversas gangues, cada uma com sua própria reputação. A moral do jogo era influenciada pelas ações do jogador: ao trabalhar para uma gangue, ele podia enfurecer outras. Introduziu também o conceito de salvamento de progresso, sistema de pontos e veículos mais variados. Um passo à frente na jogabilidade, mesmo mantendo o estilo clássico.</p>
+      <p><strong>Lançamento:</strong> 31 de Outubro de 1999</p>
+      <p><strong>Plataformas:</strong> PC, PlayStation, Dreamcast</p>
+      <a routerLink="/gta-2" class="btn-detalhes">Ver Detalhes</a>
+    </div>
+  </div>
+
+  <!-- GTA III -->
+  <div class="game-card" id="gta3">
+    <div class="image-side">
+      <img src="assets/images/gta3.png" alt="GTA III Capa" />
+    </div>
+    <div class="info-side">
+      <h2>GTA III</h2>
+      <p>O divisor de águas da franquia. GTA III foi o primeiro a usar gráficos 3D em mundo aberto. Ambientado em uma versão fictícia de Nova York, Liberty City, o jogador controla Claude, um criminoso mudo traído durante um assalto. A partir daí, começa sua escalada no submundo do crime. O jogo trouxe liberdade total de exploração, missões secundárias, rádio nos carros (com trilha sonora incrível!), e um enredo cinematográfico. Ele redefiniu o conceito de sandbox nos games e pavimentou o caminho para todos os GTAs modernos.</p>
+      <p><strong>Lançamento:</strong> 22 de Outubro de 2001</p>
+      <p><strong>Plataformas:</strong> PC, PS2, Xbox, Mac</p>
+      <a routerLink="/gta3" class="btn-detalhes">Ver Detalhes</a>
+    </div>
+  </div>
+
+  <!-- GTA Vice City -->
+  <div class="game-card" id="gtavc">
+    <div class="image-side">
+      <img src="assets/images/gtavc.png" alt="Vice City Capa" />
+    </div>
+    <div class="info-side">
+      <h2>GTA Vice City</h2>
+      <p>Uma carta de amor aos anos 80. Ambientado em Vice City (inspirada em Miami), o jogo traz Tommy Vercetti, um mafioso recém-libertado da prisão que tenta construir seu império no tráfico. Referências a Scarface e Miami Vice são abundantes, com cores neon, roupas extravagantes e uma trilha sonora marcante com hits de Blondie, Michael Jackson e outros. A atmosfera oitentista é imersiva e o enredo é um dos mais carismáticos da série.</p>
+      <p><strong>Lançamento:</strong> 29 de Outubro de 2002</p>
+      <p><strong>Plataformas:</strong> PC, PS2, Xbox, Mac</p>
+      <a routerLink="/gta-vicecity" class="btn-detalhes">Ver Detalhes</a>
+    </div>
+  </div>
+
+  <!-- GTA San Andreas -->
+  <div class="game-card" id="gtasa">
+    <div class="image-side">
+      <img src="assets/images/gtasan.png" alt="San Andreas Capa" />
+    </div>
+    <div class="info-side">
+      <h2>GTA San Andreas</h2>
+      <p>Uma lenda dos games. Em San Andreas, você joga como Carl "CJ" Johnson, que retorna a Los Santos após a morte de sua mãe. O jogo explora temas como racismo, corrupção policial, gangues, amizade e lealdade. Com um mapa gigantesco que inclui três cidades (Los Santos, San Fierro e Las Venturas), o jogo permitia customizar CJ, treinar em academias, comer, engordar, andar de bicicleta, pular de paraquedas e muito mais. Foi o auge da liberdade num jogo até então.</p>
+      <p><strong>Lançamento:</strong> 26 de Outubro de 2004</p>
+      <p><strong>Plataformas:</strong> PC, PS2, Xbox, Mac</p>
+      <a routerLink="/gta-sa" class="btn-detalhes">Ver Detalhes</a>
+    </div>
+  </div>
+
+  <!-- GTA IV -->
+  <div class="game-card" id="gta4">
+    <div class="image-side">
+      <img src="assets/images/gtaiv.png" alt="GTA IV Capa" />
+    </div>
+    <div class="info-side">
+      <h2>GTA IV</h2>
+      <p>Mais sombrio e realista, GTA IV narra a jornada de Niko Bellic, um imigrante do Leste Europeu que chega a Liberty City em busca de uma nova vida – e acaba mergulhado no crime. Com gráficos realistas para a época, física avançada (com uso do motor Euphoria), e um foco mais dramático, GTA IV trouxe diálogos densos, escolhas morais e uma crítica ao “sonho americano”. A cidade é viva e brutal, e o tom do jogo é o mais sério da série.</p>
+      <p><strong>Lançamento:</strong> 29 de Abril de 2008</p>
+      <p><strong>Plataformas:</strong> PC, PS3, Xbox 360</p>
+      <a routerLink="/gta-iv" class="btn-detalhes">Ver Detalhes</a>
+    </div>
+  </div>
+
+  <!-- GTA V -->
+  <div class="game-card" id="gta5">
+    <div class="image-side">
+      <img src="assets/images/gtav.png" alt="GTA V Capa" />
+    </div>
+    <div class="info-side">
+      <h2>GTA V</h2>
+      <p>A culminação da franquia até aqui. GTA V mistura ação, drama e comédia ao apresentar três protagonistas jogáveis: Michael (ex-ladrão), Franklin (jovem ambicioso) e Trevor (psicopata imprevisível). Ambientado em Los Santos e no condado de Blaine, o jogo traz gráficos incríveis, mundo aberto detalhado, múltiplas atividades paralelas e o fenômeno GTA Online, que segue ativo até hoje. É o GTA mais vendido e jogado da história.</p>
+      <p><strong>Lançamento:</strong> 17 de Setembro de 2013</p>
+      <p><strong>Plataformas:</strong> PC, PS3, PS4, Xbox 360, Xbox One</p>
+      <a routerLink="/gta-v" class="btn-detalhes">Ver Detalhes</a>
+    </div>
+</div>
+
+ <div class="game-card" id="gta6">
+    <div class="image-side">
+      <img src="assets/images/gta6.png" alt="GTA 6 Capa" />
+    </div>
+    <div class="info-side">
+      <h2>GTA VI</h2>
+      <p>GTA VI é o aguardado novo capítulo da franquia Grand Theft Auto, desenvolvido pela Rockstar Games. Ambientado na fictícia Vice City (inspirada em Miami) e regiões ao redor, o jogo promete uma experiência de mundo aberto ainda mais imersiva, com ambientes dinâmicos, mudanças climáticas realistas, IA avançada e uma narrativa envolvente.
+      O jogo contará com dois protagonistas jogáveis, incluindo uma protagonista feminina pela primeira vez na série principal. Além disso, o mapa será o maior já criado pela Rockstar, com regiões urbanas, pantanosas e rurais, evoluindo com o tempo e com eventos que reagem às ações do jogador.</p>
+      <p><strong>Lançamento:</strong> 26 de Maio de 2026</p>
+      <p><strong>Plataformas:</strong> PS5 e Xbox Series X/S</p>
+      <a routerLink="/gta6" class="btn-detalhes">Ver Detalhes</a>
+    </div>
+</div>
 
   <footer>
     <p>&copy; 2025 Paulo Henrique Gomes. Todos os direitos reservados.</p>
   </footer>
 </section>
-
