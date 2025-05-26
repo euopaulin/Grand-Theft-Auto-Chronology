@@ -84,7 +84,7 @@
   }
 }
 
-// ---------- TIMELINE MENU ----------
+//TIMELINE MENU
 .timeline-menu {
   display: flex;
   gap: 1rem;
@@ -196,7 +196,7 @@
   cursor: pointer;
   font-size: 1.2rem;
   font-weight: bold;
-  text-decoration: none; // Remove underline
+  text-decoration: none;
   text-align: center;
   font-family: "junegull", sans-serif;
 
@@ -219,7 +219,7 @@ footer {
 }
 
 
-// ---------- RESPONSIVO ----------
+//RESPONSIVO
 @media (max-width: 768px) {
   .header {
     margin: 2rem 1rem;
