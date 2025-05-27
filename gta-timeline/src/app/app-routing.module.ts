@@ -22,17 +22,16 @@ const routes: Routes = [
   { path: 'gta-vicecity', component: GtaVicecityComponent },
   { path: 'gta-1', component: Gta1Component },
   { path: 'gta-2', component: Gta2Component },
-  { path: 'gta6', component: Gta6Component }, // ← vírgula adicionada aqui
+  { path: 'gta6', component: Gta6Component },
   { path: '**', redirectTo: '/home' }
 ];
 @NgModule({
   imports: [
     RouterModule.forRoot(routes, {
-      anchorScrolling: 'enabled',           // ativa o scroll para âncoras (#id)
-      scrollPositionRestoration: 'enabled'  // restaura posição ao navegar
+      anchorScrolling: 'enabled',        
+      scrollPositionRestoration: 'enabled' 
     })
   ],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-

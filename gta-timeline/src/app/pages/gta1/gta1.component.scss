@@ -6,7 +6,7 @@
 //Header cabeçalho
 .header {
     background-color: transparent;
-    padding: 3rem;
+    padding: 1.2rem;
     border-radius: 30px;
     margin: 2rem auto;
     max-width: 470px;
@@ -15,12 +15,13 @@
     align-items: center;
     gap: 2rem;
     font-family: 'princedown', sans-serif;
+    white-space: nowrap; //deixa a frase em uma linha só
 
     h1 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-size: 3.5rem;
+        font-size: 5.5rem;
         text-align: center;
         color: #0c0c0cce;
         text-shadow: 2px 2px #b4ab26;
