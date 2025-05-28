@@ -19,6 +19,11 @@
   src: url("/assets/fonts/hundo.ttf") format('truetype');
 }
 
+@font-face {
+  font-family: 'typoround';
+  src: url("/assets/fonts/typoround.ttf") format('truetype');
+}
+
 .header {
   background: linear-gradient(135deg, #fa379c60, #6dd3f262);
   padding: 3rem;
@@ -194,11 +199,12 @@
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
   text-decoration: none;
   text-align: center;
-  font-family: "junegull", sans-serif;
+  font-family: "typoround", sans-serif;
+  text-shadow: 1px 1px #000000;
 
   &:hover {
     background-color: #ff66ff;
