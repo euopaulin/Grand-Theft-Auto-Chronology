@@ -32,7 +32,7 @@
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  font-family: princedown, sans-serif
+  font-family: 'princedown', sans-serif
 }
 
 .gta-title {
@@ -176,7 +176,7 @@
   h2 {
     margin: 0;
     font-size: 2rem;
-    font-family: princedown, sans-serif;
+    font-family: 'princedown', sans-serif;
     color: #cc00ff;
   }
 
@@ -184,7 +184,7 @@
     margin: 0.5rem 0 0;
     font-size: 1.3rem;
     color: #333;
-    font-family: Sora, sans-serif;
+    font-family: 'Sora', sans-serif;
   }
 }
 
@@ -200,7 +200,7 @@
   font-weight: bold;
   text-decoration: none;
   text-align: center;
-  font-family: Sora, sans-serif;
+  font-family: 'Sora', sans-serif;
 
   &:hover {
     background-color: #ff66ff;
@@ -217,7 +217,7 @@ footer {
   font-size: 14px;
   margin-top: 30px;
   text-shadow: 0.6px 0.6px #000000;
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
 }
 
 
