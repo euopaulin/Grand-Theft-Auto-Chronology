@@ -19,6 +19,8 @@
   src: url("/assets/fonts/hundo.ttf") format('truetype');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
 .header {
   background: linear-gradient(135deg, #fa379c60, #6dd3f262);
   padding: 3rem;
@@ -99,7 +101,7 @@
     font-weight: bold;
     transition: 0.3s ease-in-out;
     text-shadow: 1px 1px #000000;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 
     &:hover {
       background-color: #ff33ff;
@@ -174,7 +176,7 @@
   h2 {
     margin: 0;
     font-size: 2rem;
-    font-family: 'princedown', sans-serif;
+    font-family: princedown, sans-serif;
     color: #cc00ff;
   }
 
@@ -182,7 +184,7 @@
     margin: 0.5rem 0 0;
     font-size: 1.3rem;
     color: #333;
-    font-family: "Arial", sans-serif;
+    font-family: Sora, sans-serif;
   }
 }
 
@@ -198,7 +200,7 @@
   font-weight: bold;
   text-decoration: none;
   text-align: center;
-  font-family: "junegull", sans-serif;
+  font-family: Sora, sans-serif;
 
   &:hover {
     background-color: #ff66ff;
@@ -214,8 +216,8 @@ footer {
   color: #eee;
   font-size: 14px;
   margin-top: 30px;
-  text-shadow: 0.7px 0.7px #000000;
-  font-family: "Arial", sans-serif;
+  text-shadow: 0.6px 0.6px #000000;
+  font-family: Arial, sans-serif;
 }
 
 
