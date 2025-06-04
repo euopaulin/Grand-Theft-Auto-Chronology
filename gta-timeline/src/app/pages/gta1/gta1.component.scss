@@ -16,6 +16,7 @@
     gap: 2rem;
     font-family: 'princedown', sans-serif;
     white-space: nowrap; //deixa a frase em uma linha só
+    height: 13px;
 
     h1 {
         display: flex;
@@ -57,4 +58,15 @@
 
 .slide.active {
   opacity: 1;
+}
+
+.gamesinapse {
+  background-color: grey;
+  display: block;
+  box-sizing: border-box;
+
+}
+
+.gamesinapse h1 {
+  font-family: 'Sora', sans-serif;
 }
