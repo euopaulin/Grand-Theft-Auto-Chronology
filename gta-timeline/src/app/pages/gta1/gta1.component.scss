@@ -61,10 +61,12 @@
 }
 
 .gamesinapse {
-  background-color: rgb(255, 255, 255);
+  background-color: #00ffff;
   margin-top: 780px;
   border-radius: 8px;
   box-shadow: 5 5 10px rgba(0, 0, 0, 0.068);
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .gamesinapse h1 {
@@ -72,4 +74,12 @@
   justify-content: center;
   margin-left: 10px;
   font-size: 35px;
+  
+}
+
+.gamesinapse h2 {
+  font-family: 'junegull';
+  color: blueviolet;
+  text-shadow:wheat;
+  
 }
