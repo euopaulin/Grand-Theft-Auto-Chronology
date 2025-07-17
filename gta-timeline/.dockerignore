@@ -1,0 +1,5 @@
+# Ignora dependências que serão instaladas dentro do container
+node_modules
+
+# Ignora a pasta de saída do build local
+dist
