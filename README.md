@@ -1,6 +1,6 @@
 # 🎮 GTA Timeline
 
-🚗💥 Bem-vindo ao **GTA Timeline**, um projeto web interativo que apresenta a **cronologia completa** da lendária franquia **Grand Theft Auto**. Navegue por cada era, descubra curiosidades, personagens, e mergulhe na nostalgia dos clássicos da Rockstar Games.
+🚗💥 Bem-vindo ao **GTA Timeline**, um projeto web interativo que apresenta a **cronologia completa** da lendária franquia **Grand Theft Auto**.
 
 ---
 
@@ -9,8 +9,7 @@
 - 📅 Linha do tempo interativa dos jogos GTA
 - 🕹️ Informações detalhadas sobre cada título (data, local, protagonista)
 - 🖼️ Imagens, trilhas sonoras e referências culturais
-- 🌗 Modo claro/escuro com tema retrô inspirado em Vice City
-- 📱 Design responsivo (mobile-friendly)
+- 🌗 Tema retrô inspirado em Vice City
 
 ---
 
@@ -70,9 +69,9 @@ http://localhost:4200
 ## 👤 Autor
 
 **Paulo, 24 anos**  
-🎓 Estudante de Análise e Desenvolvimento de Sistemas  
+🎓 Estudante de Engenharia de Software
 🧠 Apaixonado por games, animes, rock e tecnologia  
-📍 Em construção constante como dev full stack
+📍 Em construção constante na área da Tecnologia
 
 ---
 
@@ -89,6 +88,3 @@ Este projeto está sob a licença MIT. Veja mais detalhes no arquivo `LICENSE`.
 - 🎯 Sistema de busca por nome e cidade
 - 📈 Dashboard de popularidade dos jogos
 
----
-
-> "A vida é uma luta... e às vezes, ela se parece com uma missão do GTA." — CJ 🕶️
