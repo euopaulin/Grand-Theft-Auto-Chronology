@@ -1,6 +1,6 @@
 # 🎮 GTA Timeline
 
-🚗💥 Bem-vindo ao **GTA Timeline**, um projeto web interativo que apresenta a **cronologia completa** da lendária franquia **Grand Theft Auto**.
+Bem-vindo ao **GTA Timeline**, um projeto web interativo que apresenta a **cronologia completa** da lendária franquia **Grand Theft Auto**.
 
 ---
 
@@ -57,11 +57,11 @@ http://localhost:4200
 ## 📦 Estrutura de Pastas
 
 ```bash
-📁 src/
- ┣ 📂 assets/         # Imagens, fontes, trilhas
- ┣ 📂 app/            # Componentes Angular
- ┣ 📄 index.html      # Página principal
- ┗ 📄 styles.scss     # Estilos globais
+src/
+ ┣  assets/         # Imagens, fontes, trilhas
+ ┣  app/            # Componentes Angular
+ ┣  index.html      # Página principal
+ ┗  styles.scss     # Estilos globais
 ```
 
 ---
@@ -83,8 +83,8 @@ Este projeto está sob a licença MIT. Veja mais detalhes no arquivo `LICENSE`.
 
 ## 💡 Futuras Melhorias
 
-- 🧪 Integração com API externa de jogos
-- 🌎 Tradução multilíngue (PT/EN)
-- 🎯 Sistema de busca por nome e cidade
-- 📈 Dashboard de popularidade dos jogos
+- Integração com API externa de jogos
+- Tradução multilíngue (PT/EN)
+- Sistema de busca por nome e cidade
+- Dashboard de popularidade dos jogos
 
