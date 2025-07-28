@@ -4,12 +4,14 @@ Bem-vindo ao **GTA Timeline**, um projeto web interativo que apresenta a **crono
 
 ---
 
-## ✨ Funcionalidades
+Para os fãs dos jogos da franquia Grand Theft Auto, essa é uma página que fiz com carinho para mostrar toda a cronologia dos jogos, bem como curiosidades, tecnologias usadas e mais.
 
-- 📅 Linha do tempo interativa dos jogos GTA
-- 🕹️ Informações detalhadas sobre cada título (data, local, protagonista)
-- 🖼️ Imagens, trilhas sonoras e referências culturais
-- 🌗 Tema retrô inspirado em Vice City
+## Funcionalidades
+
+- Linha do tempo interativa dos jogos GTA
+- Informações detalhadas sobre cada título (data, local, protagonista)
+- Imagens, trilhas sonoras e referências culturais
+- Tema retrô inspirado em Vice City
 
 ---
 
@@ -63,15 +65,6 @@ src/
  ┣  index.html      # Página principal
  ┗  styles.scss     # Estilos globais
 ```
-
----
-
-## 👤 Autor
-
-**Paulo, 24 anos**  
-🎓 Estudante de Engenharia de Software
-🧠 Apaixonado por games, animes, rock e tecnologia  
-📍 Em construção constante na área da Tecnologia
 
 ---
 
